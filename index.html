@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Leap 〜ときをこえて〜</title>
+        <meta name="description" content="ゲーム,サウンドノベル,iOS,iPhone,スマートフォンアプリ,同人">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="robots" content="nofollow,noindex">
+        <meta name="robots" content="none">
+
+        <link rel="stylesheet" href="./css/jquery.bxslider.css">
+        <link rel="stylesheet" href="./css/jquery.jscrollpane.css">
+        <link rel="stylesheet" href="./css/main.css">
+
+        <script type="text/javascript" src="./js/vendor/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="./js/vendor/jquery.easing.1.3.js"></script>
+        <script type="text/javascript" src="./js/vendor/jquery.mousewheel.js"></script>
+        <script type="text/javascript" src="./js/vendor/jquery.jscrollpane.min.js"></script>
+        <script type="text/javascript" src="./js/vendor/jquery.bxslider.min.js"></script>
+
+        <!-- fancybox -->
+        <link rel="stylesheet" type="text/css" href="./vendors/fancybox/source/jquery.fancybox.css" media="screen" />
+        <script type="text/javascript" src="./vendors/fancybox/source/jquery.fancybox.js"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="inline">
+                <a href="http://aohige.me/" target="_blank">
+                   <img src="./img/aohige_logo.png" alt="あおひげポータルへ">
+                </a>
+            </div>
+        </div>
+
+        <!-- メインコンテンツ -->
+        <div id="wrapper">
+            <!-- トップ -->
+            <div id="top" class="inline">
+                <div id="side_bar" class="transparent">
+                    <div id="news">
+                        <div class="news_block">
+                            <div class="news_date">
+                                2014年00月00日
+                            </div>
+                            <div class="news_contents">
+                                開発ブログ更新しました。
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+
+                        <div class="news_block">
+                            <div class="news_date">
+                                2014年00月00日
+                            </div>
+                            <div class="news_contents">
+                                開発ブログ更新しました。
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+
+                        <div class="news_block">
+                            <div class="news_date">
+                                2014年00月00日
+                            </div>
+                            <div class="news_contents">
+                                開発ブログ更新しました。
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+
+                        <div class="news_block">
+                            <div class="news_date">
+                                2014年00月00日
+                            </div>
+                            <div class="news_contents">
+                                開発ブログ更新しました。
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+
+                        <div class="news_block">
+                            <div class="news_date">
+                                2014年00月00日
+                            </div>
+                            <div class="news_contents">
+                                開発ブログ更新しました。
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+
+                    <ul id="menu">
+                        <li>
+                            <a id="story_btn" href="javascript:smoothScroll('story');">
+                                ストーリー紹介
+                            </a>
+                        </li>
+
+                        <li>
+                            <a id="story_btn" href="javascript:smoothScroll('character');">
+                                ストーリー紹介
+                            </a>
+                        </li>
+
+                        <li>
+                            <a id="story_btn" href="javascript:smoothScroll('capture');">
+                                ストーリー紹介
+                            </a>
+                        </li>
+
+                        <li>
+                            <a id="story_btn" href="http://circle-aohige.tumblr.com/" target="_blank">
+                                ストーリー紹介
+                            </a>
+                        </li>
+
+                        <li>
+                            <a id="story_btn" href="mailto:aohige.me@gmail.com?subject=Leapに関するお問い合わせ">
+                                ストーリー紹介
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div id="app_info">
+                        <div id="app_icon">
+                            <img src="./img/icon.png">
+                        </div>
+
+                        <table id="app_content">
+                            <tr>
+                                <td>製品名</td>
+                                <td>Leap 〜ときをこえて〜</td>
+                            </tr>
+                            <tr>
+                                <td>ジャンル</td>
+                                <td>サウンドノベル</td>
+                            </tr>
+                            <tr>
+                                <td>価格</td>
+                                <td>無料</td>
+                            </tr>
+                            <tr>
+                                <td>推奨端末</td>
+                                <td>iOS7以降のiPhone4S〜iPhone5S</td>
+                            </tr>
+                            <tr>
+                                <td>リリース日</td>
+                                <td>2014年末リリース予定</td>
+                            </tr>
+                        </table>
+
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ストーリー -->
+            <div id="story" class="inline">
+                <h3>
+                    <img src="./img/story_caption.png" alt="ストーリー">
+                </h3>
+            </div>
+
+            <!-- キャラクター -->
+            <div id="character" class="inline">
+                <h3>
+                    <img src="./img/character_caption.png" alt="歩">
+                </h3>
+                <div class="character_box">
+                    <img id="teru-img" src="./img/aruku_info.png" alt="照">
+                    <img id="aruku-img" src="./img/aruku_info.png" alt="歩">
+                    <img id="mary-img" src="./img/aruku_info.png" alt="マリー">
+                </div>
+                <div class="character_footer">
+                    <div id="teru" class="character_btn img-active">
+                        <a href="javascript:characterChange('teru');">
+                        </a>
+                    </div>
+
+                    <div id="aruku" class="character_btn img-none-active">
+                        <a href="javascript:characterChange('aruku');">
+                        </a>
+                    </div>
+
+                    <div id="mary" class="character_btn img-none-active">
+                        <a href="javascript:characterChange('mary');">
+                        </a>
+                    </div>
+
+                    <div class="clear"></div>
+                </div>
+            </div>
+
+            <!-- スクリーンショット -->
+            <div id="capture" class="inline">
+                <h3>
+                    <img src="./img/screen_caption.png" alt="スクリーンショット">
+                </h3>
+
+                <div id="grid_block">
+                    <div class="column_block">
+                        <div class="sc_image">
+                            <a href="./img/sc_placeholder.png" class="fancybox">
+                                <img src="./img/sc_placeholder.png" alt="coming soon...">
+                            </a>
+                        </div>
+
+                        <div class="sc_image centering">
+                            <a href="./img/sc_placeholder.png" class="fancybox">
+                                <img src="./img/sc_placeholder.png" alt="coming soon...">
+                            </a>
+                        </div>
+
+                        <div class="sc_image">
+                            <a href="./img/sc_placeholder.png" class="fancybox">
+                                <img src="./img/sc_placeholder.png" alt="coming soon...">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="column_block">
+                        <div class="sc_image">
+                            <a href="./img/sc_placeholder.png" class="fancybox">
+                                <img src="./img/sc_placeholder.png" alt="coming soon...">
+                            </a>
+                        </div>
+
+                        <div class="sc_image centering">
+                            <a href="./img/sc_placeholder.png" class="fancybox">
+                                <img src="./img/sc_placeholder.png" alt="coming soon...">
+                            </a>
+                        </div>
+
+                        <div class="sc_image">
+                            <a href="./img/sc_placeholder.png" class="fancybox">
+                                <img src="./img/sc_placeholder.png" alt="coming soon...">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="column_block">
+                        <div class="sc_image">
+                            <a href="./img/sc_placeholder.png" class="fancybox">
+                                <img src="./img/sc_placeholder.png" alt="coming soon...">
+                            </a>
+                        </div>
+
+                        <div class="sc_image centering">
+                            <a href="./img/sc_placeholder.png" class="fancybox">
+                                <img src="./img/sc_placeholder.png" alt="coming soon...">
+                            </a>
+                        </div>
+
+                        <div class="sc_image">
+                            <a href="./img/sc_placeholder.png" class="fancybox">
+                                <img src="./img/sc_placeholder.png" alt="coming soon...">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- フッター -->
+        <div id="footer">
+            <div class="inline">
+                <ul id="footer_menu">
+                    <li>
+                        <a href="javascript:smoothScroll('story');">
+                            ストーリー
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:smoothScroll('character');">
+                            キャラクター
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:smoothScroll('capture');">
+                            スクリーンショット
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="http://circle-aohige.tumblr.com/" target="_blank">
+                            開発ブログ
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="mailto:aohige.me@gmail.com?subject=Leapに関するお問い合わせ">
+                            問い合わせ
+                        </a>
+                    </li>
+                </ul>
+                <p>
+                    当サイトに記載されている文章・画像・デザイン・プログラムは無断での転載、WEB、あらゆる媒体での配布は禁止します。<br />
+                    Copyright (C) 2014 aohige All Rights Reserved.
+                </p>
+            </div>
+        </div>
+
+        <script>
+            $(document).ready(function() {        
+                $('.fancybox').fancybox();
+
+                // 更新履歴用
+                $('#news').jScrollPane();
+                $('.character_box img:gt(0)').hide();
+            });
+
+            function characterChange(node){
+                $('.character_footer').each(function(){
+                    $(this).children().removeClass("img-active").addClass("img-none-active");
+                });
+
+                $('.character_box img').each(function(){
+                    if($(this).css("display")==="block"){
+                        $(this).fadeOut(500);
+                    }
+                });
+
+               $("#"+node+"-img").fadeIn(1500).end().appendTo('.character_box');
+               $("#"+node).removeClass("img-none-active").addClass("img-active");
+            }
+
+            function smoothScroll(node){
+                var pos = $( "#"+node).position();
+                $('html,body').animate({ scrollTop: pos.top-60}, 1000, 'easeOutQuad');
+            }
+        </script>
+    </body>
+</html>
