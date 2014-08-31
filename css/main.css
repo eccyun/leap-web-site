@@ -130,12 +130,37 @@ body{
 }
 
 #wrapper #top #side_bar #menu #story_btn{
-	background-image    : url('../img/menu_btn.png');
+	background-image    : url('../img/story_menu_btn.png');
 }
 
 #wrapper #top #side_bar #menu #story_btn:hover{
 	background-position: left bottom;
 }
+
+#wrapper #top #side_bar #menu #character_btn{
+	background-image    : url('../img/character_menu_btn.png');
+}
+
+#wrapper #top #side_bar #menu #character_btn:hover{
+	background-position: left bottom;
+}
+
+#wrapper #top #side_bar #menu #sc_btn{
+	background-image    : url('../img/sc_menu_btn.png');
+}
+
+#wrapper #top #side_bar #menu #sc_btn:hover{
+	background-position: left bottom;
+}
+
+#wrapper #top #side_bar #menu #blog_btn{
+	background-image    : url('../img/blog_menu_btn.png');
+}
+
+#wrapper #top #side_bar #menu #blog_btn:hover{
+	background-position: left bottom;
+}
+
 
 /* アプリ情報 */
 #wrapper #top #side_bar #app_info{
