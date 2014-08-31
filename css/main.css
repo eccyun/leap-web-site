@@ -12,7 +12,7 @@ body{
 
 #header {
 	width            : 100%;
-	height           : 70px;
+	height           : 84px;
 	position 	     : fixed;
 	top		 	     : 0;
 	right	  	     : 0;
@@ -25,14 +25,14 @@ body{
 
 #header .inline{
 	width   : 960px;
-	padding : 10px 0px 10px 0px;
+	padding : 5px 0px 0px 0px;
 	margin  : auto;
 	display : block;
 }
 
 #wrapper{
 	width      : 100%;
-	margin-top : 70px;
+	margin-top : 84px;
 	display    : block;
 }
 
