@@ -250,6 +250,21 @@
                 // 更新履歴用
                 $('#news').jScrollPane();
                 $('.character_box img:gt(0)').hide();
+
+                // 上部メニュー
+                $("#footer_menu li a").hover(
+                    function () {
+                        $(this).animate({ 
+                            opacity: 0.5,
+                        }, 500 );
+                    },
+                    function () {
+                        $(this).animate({ 
+                            opacity: 1.0,
+                        }, 400 );
+                    }
+                );
+
             });
 
             function characterChange(node){
