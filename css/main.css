@@ -297,10 +297,23 @@ body{
 }
 
 #wrapper #capture #grid_block .column_block .sc_image{
-	width       : 278px;
-	height      : 157px;
-	float       : left;
-	display     : block;
+	width       		: 278px;
+	height      		: 157px;
+	background-position : left top;
+	background-repeat   : no-repeat;
+	float       		: left;
+	display    			: block;
+}
+
+#wrapper #capture #grid_block .column_block .sc_image:hover{
+	background-position : left bottom;
+}
+
+
+#wrapper #capture #grid_block .column_block .sc_image a{
+	width       		: 100%;
+	height      		: 100%;
+	display    			: block;
 }
 
 #wrapper #capture #grid_block .column_block .centering{
