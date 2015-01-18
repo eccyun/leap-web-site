@@ -3,10 +3,8 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Leap 〜ときをこえて〜</title>
-        <meta name="description" content="ゲーム,サウンドノベル,iOS,iPhone,スマートフォンアプリ,同人ゲーム,あおひげ">
-
-        <meta name="robots" content="nofollow,noindex">
-        <meta name="robots" content="none">
+        <meta name="description" content="同人サークル あおひげによるiPhone向けサウンドノベルゲーム「Leap ~ときをこえて~」の紹介サイトです。">
+        <meta name="keywords" content="ゲーム,サウンドノベル,iOS,iPhone,スマートフォンアプリ,同人ゲーム,あおひげ,eccyun,きしお">
 
         <link rel="stylesheet" href="./css/jquery.bxslider.css">
         <link rel="stylesheet" href="./css/jquery.jscrollpane.css">
@@ -74,7 +72,7 @@
                         </li>
 
                         <li>
-                            <a id="story_btn" href="mailto:aohige.me@gmail.com?subject=Leapに関するお問い合わせ">
+                            <a id="contact_btn" href="mailto:aohige.me@gmail.com?subject=Leapに関するお問い合わせ">
                                 問い合わせ
                             </a>
                         </li>
@@ -126,7 +124,7 @@
                     <img src="./img/character_caption.png" alt="キャラクター">
                 </h3>
                 <div class="character_box">
-                    <img id="teru-img" src="./img/aruku_info.png" alt="照">
+                    <img id="teru-img" src="./img/teru_info.png" alt="照">
                     <img id="aruku-img" src="./img/aruku_info.png" alt="歩">
                     <img id="mary-img" src="./img/mary_info.png" alt="マリー">
                 </div>
@@ -243,13 +241,34 @@
             </div>
         </div>
 
-        <script>
+        <script type="text/javascript">
             $(document).ready(function() {        
                 $('.fancybox').fancybox();
 
                 // 更新履歴用
                 $('#news').jScrollPane();
                 $('.character_box img:gt(0)').hide();
+                // 上部メニュー
+                $("#footer_menu li a").hover(
+                    function () {
+                        $(this).animate({ 
+                            opacity: 0.5,
+                        }, 500 );
+                    },
+                    function () {
+                        $(this).animate({ 
+                            opacity: 1.0,
+                        }, 400 );
+                    }
+                );
+
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                ga('create', 'UA-54342531-2', 'auto');
+                ga('send', 'pageview');
             });
 
             function characterChange(node){
@@ -269,7 +288,7 @@
 
             function smoothScroll(node){
                 var pos = $( "#"+node).position();
-                $('html,body').animate({ scrollTop: pos.top-60}, 1000, 'easeOutQuad');
+                $('html,body').animate({ scrollTop: pos.top-80}, 1000, 'easeOutQuad');
             }
         </script>
     </body>
