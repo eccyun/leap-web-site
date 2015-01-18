@@ -103,6 +103,26 @@ body{
 	display     : block; 
 }
 
+#wrapper #top #side_bar #news .news_block .news_contents a{
+	font-weight    : bold;
+}
+
+#wrapper #top #side_bar #news .news_block .news_contents a:link{
+	color: #676665;
+}
+
+#wrapper #top #side_bar #news .news_block .news_contents a:visited{
+	color: #676665;
+}
+
+#wrapper #top #side_bar #news .news_block .news_contents a:hover{
+	color: #676665;
+}
+
+#wrapper #top #side_bar #news .news_block .news_contents a:active{
+	color: #676665;
+}
+
 /* メニュー */
 
 #wrapper #top #side_bar #menu{
