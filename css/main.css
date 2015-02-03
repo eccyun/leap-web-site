@@ -197,7 +197,7 @@ body{
 
 #wrapper #top #side_bar #app_info #app_icon{
 	width   : 80px;
-	padding : 17px 0px 16px 0px;
+	padding : 7px 0px 16px 0px;
 	float   : left;
 	display : block;
 }
