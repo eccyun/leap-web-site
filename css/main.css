@@ -93,14 +93,14 @@ body{
 #wrapper #top #side_bar #news .news_block .news_date{
 	width      : 130px;
 	float 	   : left;
-	display    : block; 
+	display    : block;
 }
 
 #wrapper #top #side_bar #news .news_block .news_contents{
 	width       : 185px;
-	margin-left : 10px; 
+	margin-left : 10px;
 	float 	    : left;
-	display     : block; 
+	display     : block;
 }
 
 #wrapper #top #side_bar #news .news_block .news_contents a{
@@ -209,6 +209,19 @@ body{
 	color       : #fff;
 	float       : left;
 	display     : block;
+}
+
+/* Android リリースブロック */
+
+#wrapper #android-release{
+	height  : 600px;
+	background-image : url('../img/android_release_bg.jpg');
+}
+
+#wrapper #android-release a{
+	width   : 100%;
+	height  : 100%;
+	display : block;
 }
 
 /* ストーリーブロック */
