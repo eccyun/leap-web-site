@@ -211,6 +211,16 @@ body{
 	display     : block;
 }
 
+#wrapper #top #side_bar #app_info .store_badge .google_play{
+	display : block;
+}
+
+#wrapper #top #side_bar #app_info .store_badge .google_play img{
+	width       : 180px;
+	margin-left : -12px;
+}
+
+
 /* Android リリースブロック */
 
 #wrapper #android-release{
